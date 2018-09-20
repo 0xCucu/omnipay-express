@@ -1,0 +1,37 @@
+{
+    "name": "phpvcn/omnipay-express",
+    "type": "library",
+    "description": "Alipay Express gateway for Omnipay payment processing library",
+    "keywords": [
+        "alipay",
+        "gateway",
+        "omnipay",
+        "pay",
+        "payment",
+        "purchase"
+    ],
+    "homepage": "https://github.com/phpvcn/omnipay-alipay-express.git",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "wazidw",
+            "email": "wazidw@foxmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Omnipay\\AlipayExpress\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Omnipay\\AlipayExpress\\Tests\\": "tests/"
+        }
+    },
+    "require": {
+        "lokielse/omnipay-alipay": "^3.0"
+    },
+    "require-dev": {
+        "omnipay/tests": "~2.0"
+    }
+}
