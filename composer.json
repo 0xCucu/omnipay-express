@@ -1,5 +1,5 @@
 {
-    "name": "phpvcn/omnipay-express",
+    "name": "muskid/omnipay-express",
     "type": "library",
     "description": "Alipay Express gateway for Omnipay payment processing library",
     "keywords": [
@@ -10,12 +10,12 @@
         "payment",
         "purchase"
     ],
-    "homepage": "https://github.com/phpvcn/omnipay-alipay-express.git",
+    "homepage": "https://github.com/zhenyangjiang/omnipay-express.git",
     "license": "MIT",
     "authors": [
         {
-            "name": "wazidw",
-            "email": "wazidw@foxmail.com"
+            "name": "cucumber",
+            "email": "1061120731@qq.com"
         }
     ],
     "autoload": {
@@ -29,6 +29,7 @@
         }
     },
     "require": {
+	 "guzzlehttp/guzzle": "^6.3",
         "lokielse/omnipay-alipay": "^3.0"
     },
     "require-dev": {
